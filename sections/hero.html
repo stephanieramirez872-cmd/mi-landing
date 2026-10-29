@@ -1,23 +1,19 @@
-<!-- Tarjeta lateral · plantilla hero-side-card -->
-<section id="hero" data-section="hero" data-variant="hero-side-card" class="grid items-end gap-10 px-5 pt-32 pb-20 md:px-10 lg:grid-cols-[1.6fr_1fr] lg:pt-40">
-  <div>
-    <p class="eyebrow reveal"><span data-edit="availabilityText">Disponible para proyectos</span></p>
-    <h1 class="display reveal mt-6 text-[calc(clamp(2.6rem,6vw,6rem)*var(--display-scale))]" style="--i:1">Hola, soy <span data-edit="name">Stephanie Ramirez Salas</span>. <span class="text-muted" data-edit="headline">Construyo productos web rápidos, accesibles y fáciles de mantener.</span></h1>
-    <div class="reveal mt-10" style="--i:2"><div class="flex flex-wrap gap-3">
-    <a href="#projects" class="btn btn-primary">Ver proyectos <span aria-hidden="true">→</span></a>
-    <a href="mailto:tu-correo@example.com" class="btn btn-ghost">Escríbeme</a>
-  </div></div>
-  </div>
-  <aside class="card reveal p-6" style="--i:3" aria-label="Datos de contacto">
-    <div class="flex items-center gap-4">
-      <img src="https://avatars.githubusercontent.com/u/288500405?v=4&amp;s=512" alt="Foto de stephanieramirez872-cmd" width="512" height="512" loading="lazy" decoding="async" class="object-cover h-16 w-16 rounded-full text-2xl" data-edit="avatar">
-      <div><p class="font-medium">Stephanie Ramirez Salas</p><p class="text-sm text-muted">Full Stack Developer</p></div>
+<!-- Póster · plantilla hero-poster -->
+<section id="hero" data-section="hero" data-variant="hero-poster" class="px-5 pt-28 pb-16 md:px-10 md:pt-36">
+  <p class="eyebrow reveal" data-edit="headline">Construyo productos web rápidos, accesibles y fáciles de mantener.</p>
+  <h1 class="display split mt-8 text-[calc(clamp(3.5rem,15vw,14rem)*var(--display-scale))]" data-edit="name"><span class="word" aria-hidden="true"><span class="c" style="--i:0">S</span><span class="c" style="--i:1">t</span><span class="c" style="--i:2">e</span><span class="c" style="--i:3">p</span><span class="c" style="--i:4">h</span><span class="c" style="--i:5">a</span><span class="c" style="--i:6">n</span><span class="c" style="--i:7">i</span><span class="c" style="--i:8">e</span></span> <span class="word" aria-hidden="true"><span class="c" style="--i:9">R</span><span class="c" style="--i:10">a</span><span class="c" style="--i:11">m</span><span class="c" style="--i:12">i</span><span class="c" style="--i:13">r</span><span class="c" style="--i:14">e</span><span class="c" style="--i:15">z</span></span> <span class="word" aria-hidden="true"><span class="c" style="--i:16">S</span><span class="c" style="--i:17">a</span><span class="c" style="--i:18">l</span><span class="c" style="--i:19">a</span><span class="c" style="--i:20">s</span></span><span class="sr-only">Stephanie Ramirez Salas</span></h1>
+  <dl class="reveal mt-10 grid gap-6 border-t border-line pt-6 sm:grid-cols-3" style="--i:3">
+    <div>
+      <dt class="eyebrow">Rol</dt>
+      <dd class="mt-1 text-lg" data-edit="role">Full Stack Developer</dd>
     </div>
-    <dl class="mt-6 divide-y divide-line text-sm">
-      <div class="flex justify-between py-3"><dt class="text-muted">Estado</dt><dd class="flex items-center gap-2"><span class="pulse-dot" aria-hidden="true"></span> Disponible</dd></div>
-      <div class="flex justify-between py-3"><dt class="text-muted">Hora local</dt><dd><span class="font-mono" data-clock="America/Lima"></span></dd></div>
-      <div class="flex justify-between py-3"><dt class="text-muted">Respuesta</dt><dd>en menos de 24 h</dd></div>
-      <div class="flex justify-between gap-4 py-3"><dt class="text-muted">Email</dt><dd class="truncate"><a href="mailto:tu-correo@example.com" class="underline-offset-4 hover:underline" data-edit="email">tu-correo@example.com</a></dd></div>
-    </dl>
-  </aside>
+    <div>
+      <dt class="eyebrow">Ubicación</dt>
+      <dd class="mt-1 text-lg"><span data-edit="location">Nueva Cajamarca, Perú</span> · <span class="font-mono text-muted" data-clock="America/Lima"></span></dd>
+    </div>
+    <div>
+      <dt class="eyebrow">Disponibilidad</dt>
+      <dd class="mt-1 flex items-center gap-2 text-lg"><span class="pulse-dot" aria-hidden="true"></span><span data-edit="availabilityText">Disponible para proyectos</span></dd>
+    </div>
+  </dl>
 </section>

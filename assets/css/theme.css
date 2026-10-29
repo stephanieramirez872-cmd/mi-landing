@@ -1,6 +1,4 @@
-/* Tema: Papel. Editorial cálido sobre crema, con serif y grano de papel. */
-@font-face{font-family:"Instrument Serif";src:url("../fonts/instrument-serif-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Geist";src:url("../fonts/geist-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
-@font-face{font-family:"Geist Mono";src:url("../fonts/geist-mono-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
-:root{--ff-display:"Instrument Serif", ui-serif, Georgia, serif;--ff-body:"Geist", ui-sans-serif, system-ui, sans-serif;--ff-mono:"Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;--display-tracking:-0.02em;--display-weight:400;--display-case:none;--display-scale:1;--display-leading:0.95;--radius:1rem;--bg:#FAF9F5;--bg-2:#F1EEE6;--ink:#1A1C1C;--ink-2:#3D3F3F;--muted:#5D5F5F;--line:#E2DED3;--accent:#C2410C;--accent-soft:#FBE7DA;--on-accent:#FFFFFF;color-scheme:light}
-:root{--grain:1}
+/* Tema: Suizo. Minimal tipográfico con secciones numeradas y casi sin color. */
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-wght-normal.woff2") format("woff2");font-weight:400 700;font-style:normal;font-display:swap}
+@font-face{font-family:"JetBrains Mono";src:url("../fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2");font-weight:100 800;font-style:normal;font-display:swap}
+:root{--ff-display:"Instrument Sans", ui-sans-serif, system-ui, sans-serif;--ff-body:"Instrument Sans", ui-sans-serif, system-ui, sans-serif;--ff-mono:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;--display-tracking:-0.045em;--display-weight:600;--display-case:none;--display-scale:1;--display-leading:0.95;--radius:0.25rem;--bg:#FFFFFF;--bg-2:#EEF1EE;--ink:#111111;--ink-2:#333333;--muted:#5C5C5C;--line:#E2E5E2;--accent:#3F5E4C;--accent-soft:#DFE4DF;--on-accent:#FFFFFF;color-scheme:light}

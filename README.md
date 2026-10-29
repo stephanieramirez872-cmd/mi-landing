@@ -14,4 +14,4 @@ assets/css/styles.css estilos compilados
 assets/js/site.js     mejoras opcionales
 ```
 
-Tema: **Papel**. Para publicarla basta servir esta carpeta como sitio estático (GitHub Pages, Vercel, Netlify…).
+Tema: **Suizo**. Para publicarla basta servir esta carpeta como sitio estático (GitHub Pages, Vercel, Netlify…).
