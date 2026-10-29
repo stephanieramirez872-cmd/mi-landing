@@ -1,14 +1,23 @@
-<!-- Retrato partido · plantilla hero-split-portrait -->
-<section id="hero" data-section="hero" data-variant="hero-split-portrait" class="grid items-center gap-10 px-5 pt-28 pb-20 md:px-10 lg:grid-cols-2">
-  <div class="reveal overflow-hidden rounded-theme"><img src="https://avatars.githubusercontent.com/u/288500405?v=4&amp;s=512" alt="Foto de stephanieramirez872-cmd" width="512" height="512" loading="lazy" decoding="async" class="object-cover img-settle aspect-[4/5] w-full text-[clamp(5rem,14vw,12rem)]" data-edit="avatar"></div>
+<!-- Tarjeta lateral · plantilla hero-side-card -->
+<section id="hero" data-section="hero" data-variant="hero-side-card" class="grid items-end gap-10 px-5 pt-32 pb-20 md:px-10 lg:grid-cols-[1.6fr_1fr] lg:pt-40">
   <div>
-    <div class="reveal"><span class="pill-available"><span class="pulse-dot" aria-hidden="true"></span><span data-edit="availabilityText">Disponible para proyectos</span></span></div>
-    <h1 class="display reveal mt-6 text-[calc(clamp(3rem,8vw,7rem)*var(--display-scale))]" style="--i:1" data-edit="name">Stephanie Ramirez Salas</h1>
-    <p class="reveal mt-4 font-mono text-sm uppercase tracking-widest text-muted" style="--i:2" data-edit="role">Full Stack Developer</p>
-    <p class="reveal mt-6 max-w-lg text-xl text-ink-2" style="--i:3" data-edit="headline">Construyo productos web rápidos, accesibles y fáciles de mantener.</p>
-    <div class="reveal mt-10" style="--i:4"><div class="flex flex-wrap gap-3">
+    <p class="eyebrow reveal"><span data-edit="availabilityText">Disponible para proyectos</span></p>
+    <h1 class="display reveal mt-6 text-[calc(clamp(2.6rem,6vw,6rem)*var(--display-scale))]" style="--i:1">Hola, soy <span data-edit="name">Stephanie Ramirez Salas</span>. <span class="text-muted" data-edit="headline">Construyo productos web rápidos, accesibles y fáciles de mantener.</span></h1>
+    <div class="reveal mt-10" style="--i:2"><div class="flex flex-wrap gap-3">
     <a href="#projects" class="btn btn-primary">Ver proyectos <span aria-hidden="true">→</span></a>
     <a href="mailto:tu-correo@example.com" class="btn btn-ghost">Escríbeme</a>
   </div></div>
   </div>
+  <aside class="card reveal p-6" style="--i:3" aria-label="Datos de contacto">
+    <div class="flex items-center gap-4">
+      <img src="https://avatars.githubusercontent.com/u/288500405?v=4&amp;s=512" alt="Foto de stephanieramirez872-cmd" width="512" height="512" loading="lazy" decoding="async" class="object-cover h-16 w-16 rounded-full text-2xl" data-edit="avatar">
+      <div><p class="font-medium">Stephanie Ramirez Salas</p><p class="text-sm text-muted">Full Stack Developer</p></div>
+    </div>
+    <dl class="mt-6 divide-y divide-line text-sm">
+      <div class="flex justify-between py-3"><dt class="text-muted">Estado</dt><dd class="flex items-center gap-2"><span class="pulse-dot" aria-hidden="true"></span> Disponible</dd></div>
+      <div class="flex justify-between py-3"><dt class="text-muted">Hora local</dt><dd><span class="font-mono" data-clock="America/Lima"></span></dd></div>
+      <div class="flex justify-between py-3"><dt class="text-muted">Respuesta</dt><dd>en menos de 24 h</dd></div>
+      <div class="flex justify-between gap-4 py-3"><dt class="text-muted">Email</dt><dd class="truncate"><a href="mailto:tu-correo@example.com" class="underline-offset-4 hover:underline" data-edit="email">tu-correo@example.com</a></dd></div>
+    </dl>
+  </aside>
 </section>
